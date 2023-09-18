@@ -2334,6 +2334,36 @@
     (uuid ff3b634b-1dc5-4752-8f7c-ea47c4749d42)
   )
 
+  (symbol (lib_id "power:+5V") (at 275.59 214.63 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 04b310ea-2849-440b-bac9-78c06e31f542)
+    (property "Reference" "#PWR?" (at 275.59 218.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 275.971 210.2358 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 275.59 214.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 275.59 214.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 254fe78f-74f6-44a7-bc31-c2b865ca3d58))
+    (instances
+      (project "mikrobus-device"
+        (path "/1ab71324-8c2e-4ce2-b244-7cabe8dccbc7"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "jtag-click"
+        (path "/441f2680-d167-465f-8454-382a506da306"
+          (reference "#PWR044") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 101.6 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 051aebf6-880d-494b-a4b5-42320ad2b6a0)
@@ -2417,6 +2447,36 @@
       (project "jtag-click"
         (path "/441f2680-d167-465f-8454-382a506da306"
           (reference "R3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 275.59 72.39 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 0abe3998-2413-4e77-8245-8fb75078181c)
+    (property "Reference" "#PWR?" (at 275.59 76.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 275.971 67.9958 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 275.59 72.39 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 275.59 72.39 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 568c4a32-0799-4b5e-a90d-6e483906e0c6))
+    (instances
+      (project "mikrobus-device"
+        (path "/1ab71324-8c2e-4ce2-b244-7cabe8dccbc7"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "jtag-click"
+        (path "/441f2680-d167-465f-8454-382a506da306"
+          (reference "#PWR035") (unit 1)
         )
       )
     )
@@ -2761,31 +2821,6 @@
     )
   )
 
-  (symbol (lib_id "power:VDD") (at 275.59 107.95 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 2174230d-56a3-42a4-933f-dc157172c572)
-    (property "Reference" "#PWR040" (at 275.59 111.76 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VDD" (at 275.59 104.14 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 275.59 107.95 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 275.59 107.95 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 8d51c69c-496f-4833-9ced-98c0178208ab))
-    (instances
-      (project "jtag-click"
-        (path "/441f2680-d167-465f-8454-382a506da306"
-          (reference "#PWR040") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:C") (at 38.1 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 21e68e2d-e1fe-455f-8599-c058fcf20e10)
@@ -2832,31 +2867,6 @@
       (project "jtag-click"
         (path "/441f2680-d167-465f-8454-382a506da306"
           (reference "#PWR067") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:VDD") (at 275.59 179.07 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 23bd8e00-0c47-4a8d-a113-25b171339554)
-    (property "Reference" "#PWR044" (at 275.59 182.88 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VDD" (at 275.59 175.26 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 275.59 179.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 275.59 179.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 13f98c0d-174f-4805-bcda-24009dfbae3a))
-    (instances
-      (project "jtag-click"
-        (path "/441f2680-d167-465f-8454-382a506da306"
-          (reference "#PWR044") (unit 1)
         )
       )
     )
@@ -3219,6 +3229,36 @@
     )
   )
 
+  (symbol (lib_id "power:+5V") (at 275.59 179.07 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 5237a58b-a8f4-4cb3-88d8-dae91a8f4123)
+    (property "Reference" "#PWR?" (at 275.59 182.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 275.971 174.6758 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 275.59 179.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 275.59 179.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f6397b6a-be6a-478b-8f95-d5b1747f5b18))
+    (instances
+      (project "mikrobus-device"
+        (path "/1ab71324-8c2e-4ce2-b244-7cabe8dccbc7"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "jtag-click"
+        (path "/441f2680-d167-465f-8454-382a506da306"
+          (reference "#PWR042") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:+3V3") (at 231.14 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 539cb2ff-08cc-44f4-8bac-3fef19b59814)
@@ -3520,26 +3560,31 @@
     )
   )
 
-  (symbol (lib_id "power:VDD") (at 275.59 214.63 0) (unit 1)
+  (symbol (lib_id "power:+5V") (at 356.87 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
-    (uuid 654ead2d-85bf-4d8c-aed1-1e81af67ddcd)
-    (property "Reference" "#PWR046" (at 275.59 218.44 0)
+    (uuid 66926f8d-7e10-4db4-be2d-92bcad468522)
+    (property "Reference" "#PWR?" (at 356.87 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "VDD" (at 275.59 210.82 0)
+    (property "Value" "+5V" (at 357.251 65.4558 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 275.59 214.63 0)
+    (property "Footprint" "" (at 356.87 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 275.59 214.63 0)
+    (property "Datasheet" "" (at 356.87 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7ddb966f-1fbc-4281-9889-e9d41cef4230))
+    (pin "1" (uuid 25b7b64e-e69c-44bf-9f50-44bdbf8d5311))
     (instances
+      (project "mikrobus-device"
+        (path "/1ab71324-8c2e-4ce2-b244-7cabe8dccbc7"
+          (reference "#PWR?") (unit 1)
+        )
+      )
       (project "jtag-click"
         (path "/441f2680-d167-465f-8454-382a506da306"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR048") (unit 1)
         )
       )
     )
@@ -3813,6 +3858,36 @@
     )
   )
 
+  (symbol (lib_id "power:+5V") (at 356.87 29.21 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 7e8920e6-7793-4b25-b9eb-c4532a91dbd5)
+    (property "Reference" "#PWR?" (at 356.87 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 357.251 24.8158 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 356.87 29.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 356.87 29.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 078cae7a-9a9c-4031-b484-99b6149e3db7))
+    (instances
+      (project "mikrobus-device"
+        (path "/1ab71324-8c2e-4ce2-b244-7cabe8dccbc7"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "jtag-click"
+        (path "/441f2680-d167-465f-8454-382a506da306"
+          (reference "#PWR046") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:R_US") (at 222.25 48.26 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 807a1d70-75b5-4daa-b5a2-8259d0b9fefb)
@@ -3859,6 +3934,36 @@
       (project "jtag-click"
         (path "/441f2680-d167-465f-8454-382a506da306"
           (reference "#PWR056") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 275.59 143.51 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 8521e186-1b83-4803-88e2-972feded0c5c)
+    (property "Reference" "#PWR?" (at 275.59 147.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 275.971 139.1158 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 275.59 143.51 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 275.59 143.51 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f7556bb8-fbe9-4a96-b3e3-095886d3d013))
+    (instances
+      (project "mikrobus-device"
+        (path "/1ab71324-8c2e-4ce2-b244-7cabe8dccbc7"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "jtag-click"
+        (path "/441f2680-d167-465f-8454-382a506da306"
+          (reference "#PWR040") (unit 1)
         )
       )
     )
@@ -4080,31 +4185,6 @@
       (project "jtag-click"
         (path "/441f2680-d167-465f-8454-382a506da306"
           (reference "R28") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:VDD") (at 356.87 29.21 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 907b7652-110d-4194-9de0-a71813d28621)
-    (property "Reference" "#PWR048" (at 356.87 33.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VDD" (at 356.87 25.4 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 356.87 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 356.87 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a987eae5-fb3e-48e2-a5a0-882b4e1869ef))
-    (instances
-      (project "jtag-click"
-        (path "/441f2680-d167-465f-8454-382a506da306"
-          (reference "#PWR048") (unit 1)
         )
       )
     )
@@ -4521,31 +4601,6 @@
     )
   )
 
-  (symbol (lib_id "power:VDD") (at 275.59 36.83 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid aca06afa-67bc-431f-861f-4f08471f458d)
-    (property "Reference" "#PWR035" (at 275.59 40.64 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VDD" (at 275.59 33.02 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 275.59 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 275.59 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 93800a3d-db0b-4e76-bda0-f208349721fb))
-    (instances
-      (project "jtag-click"
-        (path "/441f2680-d167-465f-8454-382a506da306"
-          (reference "#PWR035") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND") (at 335.28 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aee927b4-031e-44e6-87d2-510b0d487474)
@@ -4566,6 +4621,36 @@
       (project "jtag-click"
         (path "/441f2680-d167-465f-8454-382a506da306"
           (reference "#PWR032") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 275.59 36.83 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid b06cece4-92ea-42c4-868c-a8780b7c1e71)
+    (property "Reference" "#PWR?" (at 275.59 40.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 275.971 32.4358 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 275.59 36.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 275.59 36.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c136274a-46b3-44f5-ab7e-c94442f1750a))
+    (instances
+      (project "mikrobus-device"
+        (path "/1ab71324-8c2e-4ce2-b244-7cabe8dccbc7"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "jtag-click"
+        (path "/441f2680-d167-465f-8454-382a506da306"
+          (reference "#PWR068") (unit 1)
         )
       )
     )
@@ -4854,31 +4939,6 @@
       (project "jtag-click"
         (path "/441f2680-d167-465f-8454-382a506da306"
           (reference "#PWR041") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:VDD") (at 356.87 69.85 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid c5c958f1-475d-4719-a5c8-c3940840adbb)
-    (property "Reference" "#PWR050" (at 356.87 73.66 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VDD" (at 356.87 66.04 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 356.87 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 356.87 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 61c6e9e6-0dcc-4af5-b699-5e4bd5b417c2))
-    (instances
-      (project "jtag-click"
-        (path "/441f2680-d167-465f-8454-382a506da306"
-          (reference "#PWR050") (unit 1)
         )
       )
     )
@@ -5200,6 +5260,36 @@
     )
   )
 
+  (symbol (lib_id "power:+5V") (at 275.59 107.95 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid d366136c-5aa5-40e2-a498-78c392174a67)
+    (property "Reference" "#PWR?" (at 275.59 111.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 275.971 103.5558 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 275.59 107.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 275.59 107.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 554bda4a-a771-477a-8d20-d42b2040222b))
+    (instances
+      (project "mikrobus-device"
+        (path "/1ab71324-8c2e-4ce2-b244-7cabe8dccbc7"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "jtag-click"
+        (path "/441f2680-d167-465f-8454-382a506da306"
+          (reference "#PWR038") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:D_Dual_Series_CKA") (at 266.7 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d57a73fa-8b3a-4629-b809-0a207351b413)
@@ -5354,31 +5444,6 @@
     )
   )
 
-  (symbol (lib_id "power:VDD") (at 275.59 143.51 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid deb833a8-267b-4cfa-848e-f86045a41f29)
-    (property "Reference" "#PWR042" (at 275.59 147.32 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VDD" (at 275.59 139.7 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 275.59 143.51 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 275.59 143.51 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 534c16a6-f55a-40ab-b46d-957ad482532a))
-    (instances
-      (project "jtag-click"
-        (path "/441f2680-d167-465f-8454-382a506da306"
-          (reference "#PWR042") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:C") (at 114.3 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e66f8920-0570-4498-b62c-7f25c1e8836f)
@@ -5485,31 +5550,6 @@
       (project "jtag-click"
         (path "/441f2680-d167-465f-8454-382a506da306"
           (reference "U3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:VDD") (at 275.59 72.39 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid eea049fd-59b4-4717-a271-064f9204a3b8)
-    (property "Reference" "#PWR038" (at 275.59 76.2 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VDD" (at 275.59 68.58 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 275.59 72.39 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 275.59 72.39 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 6a87296c-8c53-478c-9fa9-8fc03b44211e))
-    (instances
-      (project "jtag-click"
-        (path "/441f2680-d167-465f-8454-382a506da306"
-          (reference "#PWR038") (unit 1)
         )
       )
     )

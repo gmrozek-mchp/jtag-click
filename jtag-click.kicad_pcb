@@ -810,7 +810,7 @@
     (pad "1" smd rect (at -1 -0.65 180) (size 0.45 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 43 "Net-(D7-common)") (pinfunction "common") (pintype "passive") (tstamp 45e04178-285c-4fb3-a806-a48bcbf317be))
     (pad "2" smd rect (at -1 0.65 180) (size 0.45 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 8 "VDD") (pinfunction "K") (pintype "passive") (tstamp cc120356-616a-4bc8-b4aa-18565168fd11))
+      (net 3 "+5V") (pinfunction "K") (pintype "passive") (tstamp cc120356-616a-4bc8-b4aa-18565168fd11))
     (pad "3" smd rect (at 1 0 180) (size 0.45 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 2 "GND") (pinfunction "A") (pintype "passive") (tstamp 13bac89c-d371-491d-b29e-8232c6128bfd))
     (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-323_SC-70.wrl"
@@ -872,7 +872,7 @@
     (pad "1" smd rect (at -1 -0.65 180) (size 0.45 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 44 "Net-(D8-common)") (pinfunction "common") (pintype "passive") (tstamp ca5b01de-15e7-41fa-8b0b-242be7e7ec62))
     (pad "2" smd rect (at -1 0.65 180) (size 0.45 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 8 "VDD") (pinfunction "K") (pintype "passive") (tstamp 620f8f0f-9dca-46a1-923c-7b4747ed10a6))
+      (net 3 "+5V") (pinfunction "K") (pintype "passive") (tstamp 620f8f0f-9dca-46a1-923c-7b4747ed10a6))
     (pad "3" smd rect (at 1 0 180) (size 0.45 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 2 "GND") (pinfunction "A") (pintype "passive") (tstamp 66d5b8a1-b02f-4462-9870-fc52ddea5049))
     (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-323_SC-70.wrl"
@@ -1104,7 +1104,7 @@
     (pad "1" smd rect (at -1 -0.65 180) (size 0.45 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 41 "Net-(D5-common)") (pinfunction "common") (pintype "passive") (tstamp 3d55b9b1-9a40-42c0-8a6d-d989dc83f124))
     (pad "2" smd rect (at -1 0.65 180) (size 0.45 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 8 "VDD") (pinfunction "K") (pintype "passive") (tstamp 5a6a66b0-ae30-4af1-a98d-11089af6e837))
+      (net 3 "+5V") (pinfunction "K") (pintype "passive") (tstamp 5a6a66b0-ae30-4af1-a98d-11089af6e837))
     (pad "3" smd rect (at 1 0 180) (size 0.45 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 2 "GND") (pinfunction "A") (pintype "passive") (tstamp 94652e77-5b1f-4b56-802d-01ac3721ac5a))
     (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-323_SC-70.wrl"
@@ -1338,7 +1338,7 @@
     (pad "1" smd rect (at -1 -0.65 180) (size 0.45 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 42 "Net-(D6-common)") (pinfunction "common") (pintype "passive") (tstamp baa51604-af88-4976-8fed-a95a32af9502))
     (pad "2" smd rect (at -1 0.65 180) (size 0.45 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 8 "VDD") (pinfunction "K") (pintype "passive") (tstamp 98ded2c3-8b6c-4cee-9d18-ac0e31477182))
+      (net 3 "+5V") (pinfunction "K") (pintype "passive") (tstamp 98ded2c3-8b6c-4cee-9d18-ac0e31477182))
     (pad "3" smd rect (at 1 0 180) (size 0.45 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 2 "GND") (pinfunction "A") (pintype "passive") (tstamp 63e95185-a65f-447e-b0a7-2bba0a98b89b))
     (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-323_SC-70.wrl"
@@ -1400,7 +1400,7 @@
     (pad "1" smd rect (at -1 -0.65 180) (size 0.45 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 40 "Net-(D4-common)") (pinfunction "common") (pintype "passive") (tstamp 3a2e7281-1e7c-4555-8ffd-3d4b4d087abb))
     (pad "2" smd rect (at -1 0.65 180) (size 0.45 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 8 "VDD") (pinfunction "K") (pintype "passive") (tstamp a82f3417-e3c4-4917-b86d-9c3b261f10df))
+      (net 3 "+5V") (pinfunction "K") (pintype "passive") (tstamp a82f3417-e3c4-4917-b86d-9c3b261f10df))
     (pad "3" smd rect (at 1 0 180) (size 0.45 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 2 "GND") (pinfunction "A") (pintype "passive") (tstamp 220d7ab5-8150-4c34-9d57-a88fc5ebe337))
     (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-323_SC-70.wrl"
@@ -1570,7 +1570,7 @@
     (pad "1" smd rect (at -1 -0.65 180) (size 0.45 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 39 "Net-(D3-common)") (pinfunction "common") (pintype "passive") (tstamp fe205852-6f45-495d-befc-5b2d5a956677))
     (pad "2" smd rect (at -1 0.65 180) (size 0.45 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 8 "VDD") (pinfunction "K") (pintype "passive") (tstamp 51a19b33-2aab-42d6-83cc-a77cefdd5223))
+      (net 3 "+5V") (pinfunction "K") (pintype "passive") (tstamp 51a19b33-2aab-42d6-83cc-a77cefdd5223))
     (pad "3" smd rect (at 1 0 180) (size 0.45 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 2 "GND") (pinfunction "A") (pintype "passive") (tstamp 1d70d939-9d64-4ff8-b3d2-2654aa9ebb1f))
     (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-323_SC-70.wrl"
@@ -1750,7 +1750,7 @@
     (pad "1" smd rect (at -1 -0.65 180) (size 0.45 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 37 "Net-(D1-common)") (pinfunction "common") (pintype "passive") (tstamp 340d359f-9582-4353-8739-c600bc232d2f))
     (pad "2" smd rect (at -1 0.65 180) (size 0.45 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 8 "VDD") (pinfunction "K") (pintype "passive") (tstamp 59f92a56-5e02-4496-9e0e-ff0f703411f6))
+      (net 3 "+5V") (pinfunction "K") (pintype "passive") (tstamp 59f92a56-5e02-4496-9e0e-ff0f703411f6))
     (pad "3" smd rect (at 1 0 180) (size 0.45 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 2 "GND") (pinfunction "A") (pintype "passive") (tstamp a8f9620a-b3e5-4f57-b645-44c0b6d51f04))
     (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-323_SC-70.wrl"
@@ -2884,7 +2884,7 @@
     (pad "1" smd rect (at -1 -0.65 180) (size 0.45 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 38 "Net-(D2-common)") (pinfunction "common") (pintype "passive") (tstamp eda289d9-b951-47f8-abf6-671b22a2c346))
     (pad "2" smd rect (at -1 0.65 180) (size 0.45 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 8 "VDD") (pinfunction "K") (pintype "passive") (tstamp 3df1d9c1-7ba7-4e27-8fe3-c1bc58280892))
+      (net 3 "+5V") (pinfunction "K") (pintype "passive") (tstamp 3df1d9c1-7ba7-4e27-8fe3-c1bc58280892))
     (pad "3" smd rect (at 1 0 180) (size 0.45 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 2 "GND") (pinfunction "A") (pintype "passive") (tstamp 799f66ed-408f-4d53-a448-9e22468bb903))
     (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-323_SC-70.wrl"
